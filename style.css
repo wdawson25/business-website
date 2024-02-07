@@ -4,9 +4,9 @@
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
-  --primary: #155bd5;
-  --primary-dark: #1c3ab6;
-  --primary-light: #e2f1ff;
+  --black: #1b1c1f;
+  --black-dark: #212122;
+  --black-light: #e2f1ff;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
   --accent-light: #dff9f8;
@@ -911,12 +911,12 @@ p {
 .header-eight {
   position: relative;
   padding:160px 0 100px 0;
-  background: var(--primary);
+  background: var(--black);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
     padding: 130px 0 80px 0;
-  }
+  }  
 }
 @media (max-width: 767px) {
   .header-eight {
@@ -1430,7 +1430,7 @@ p {
 .call-action {
   z-index: 2;
   padding: 100px 0;
-  background: linear-gradient(45deg, var(--primary), var(--primary-dark));
+  background: linear-gradient(45deg, var(--black), var(--black-dark));
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
