@@ -172,6 +172,7 @@ p {
   margin: 0px;
 }
 
+
 .text-small {
   font-size: 0.875em;
   line-height: 1.5;
@@ -1904,4 +1905,22 @@ p {
 .footer-eleven .newsletter-form .sub-btn:hover {
   color: var(--white);
   background-color: var(--primary-dark);
+}
+
+.animate-image {
+ background-color: #00ae11;
+  padding:10px;
+  border-color: #00bac1;
+  animation: squeeze 5s infinite;
+}
+@keyframes squeeze {
+  0% {top:0px; }
+
+  50%{scale: 25%;
+    top:100px }
+ 75%{top:50px}
+  100% { 
+    top:0px;
+    background-color: #00bac1;
+  }
 }
